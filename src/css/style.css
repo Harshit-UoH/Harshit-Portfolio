@@ -1,0 +1,296 @@
+/* ------------------- BASIC STYLES -------------------- */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* -------------------- SCROLL BAR STYLES ------------------- */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* -------------------- BASIC STYLES FOR PAGES --------------- */
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.pageposition {
+  overflow: hidden;
+  min-height: 100vh !important;
+  width: 100%;
+  color: white;
+  padding-top: 50px;
+  padding-left: 300px;
+  background: rgb(32, 18, 25);
+}
+
+/* -------------------- DESKTOP VIEW STYLES ------------------- */
+.loader{
+  background-color:black;
+  min-height: 100vh;
+}
+.loader img{
+  margin:0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+#menu {
+  display: none;
+}
+#menu:checked ~ .side-menu {
+  left: 0;
+}
+nav .admin {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  float: right;
+  margin-top: 5px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  padding: 0.6em 2.8em;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: -webkit-box;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+}
+.admin:hover,
+.admin:focus {
+  color: #fff;
+  outline: 0;
+}
+.admin:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+.mylogo img:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+nav .admin a {
+  text-decoration: none;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  letter-spacing: 2px;
+  background: rgb(32, 17, 17);
+  z-index: 5;
+}
+.uppernav{
+  border-bottom: 3px outset rgb(241, 176, 209);
+  border-right: 3px outset rgb(241, 176, 209);
+}
+.mylogo img:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+label {
+  color: #fff;
+  font-size: 15px;
+}
+.mylogo {
+  padding-left: 300px;
+  display: block;
+}
+nav .menu-bar {
+  float: right;
+  display: none;
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 30px;
+}
+.side-menu {
+  position: fixed;
+  background: rgb(32, 17, 17);
+  width: 300px;
+  height: 100%;
+  overflow: auto;
+  z-index: 10;
+}
+.side-menu center img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 30px;
+  border: 5px solid wheat;
+  transition: transform 0.5s ease;
+}
+.side-menu center img:hover {
+  transform: scale(1.2);
+}
+.side-menu center p {
+  font-family: "Great Vibes", cursive;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 1px;
+}
+.side-menu center p {
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 15px #e60073,
+      0 0 40px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6,
+      0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+  }
+}
+.links {
+  display: block;
+  line-height: 50px;
+  margin: 2px;
+  text-decoration: none;
+  list-style: none;
+  text-align: left;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+.links:hover .ico {
+  fill: blue;
+  transform: scale(1.2);
+}
+.links span {
+  line-height: 40px;
+  font-size: 20px;
+  margin-left: 10px;
+  color: white;
+  transition: transform 0.2s ease-in;
+}
+.links:hover span {
+  color: yellow;
+  transform: scale(1, 1.2);
+}
+.links:hover {
+  text-decoration: none;
+  color: #ffee10;
+  box-shadow: 0 0 20px #ffee10;
+}
+.icons {
+  border: 1px solid hotpink;
+  font-size: 4rem;
+  color: rgb(212, 177, 111);
+  padding: 10px;
+  position: absolute;
+  top: 25%;
+  margin-left: 20px;
+}
+.ico {
+  line-height: 40px;
+  font-size: 30px;
+  fill: rgb(92, 245, 10);
+  padding-left: 5px;
+  transition: transform 0.5s ease;
+  margin-left: 5px;
+}
+
+.horizontalrow{
+  height: 3px !important;
+  color: hotpink;
+}
+
+/* -------------------- MEDIA QUERIES FOR TABLETS ----------------------*/
+
+@media (max-width: 850px) {
+  .loader img{
+    left: 57%;
+  }
+  .pageposition {
+    padding-left: 100px;
+  }
+  .links {
+    line-height: 70px;
+    text-align: center;
+    margin-left: 0;
+    font-size: 35px;
+  }
+  .mylogo {
+    padding-left: 100px;
+  }
+  .side-menu center p {
+    font-size: 20px;
+  }
+  .side-menu .links span {
+    display: none;
+  }
+  .side-menu center img {
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    border: 3px solid wheat;
+  }
+  .side-menu center h2 {
+    color: white;
+    font-size: 20px;
+  }
+  .side-menu {
+    width: 100px;
+  }
+}
+
+
+/* -------------------- MEDIA QUERIES FOR MOBLIE ----------------------*/
+@media (max-width: 650px) {
+  .loader img{
+    left: 50%;
+  }
+  .pageposition {
+    padding-left: 0px;
+  }
+
+  nav .admin {
+    display: none;
+  }
+  .ico {
+    display: none;
+  }
+  .mylogo {
+    padding-left: 0px;
+    display: inline-block;
+  }
+  nav .menu-bar {
+    display: block;
+  }
+  .side-menu center p {
+    font-size: 30px;
+  }
+  .side-menu {
+    margin-top: 50px;
+    width: 100%;
+    transition: all 0.5s;
+    left: 100%;
+  }
+  .side-menu .links span {
+    display: block;
+  }
+}
