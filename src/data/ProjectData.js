@@ -18,7 +18,7 @@ export default[
   {
     "Id": 3,
     "Name": "Flutter App",
-    "Technology": [{ "id":1,"Tech" :"Flutter" }, { "id":2,"Tech" : "Firebase" }, {"id":3, "Tech:": "Firestroe"} ],
+    "Technology": [{ "id":1,"Tech" :"Flutter" }, { "id": 2,"Tech" : "Firebase" }, {"id" : 3, "Tech" : "Firestore"} ],
     "Gitlink": "https://Harshit-18mcmc42@bitbucket.org/Harshit-18mcmc42/flutter-app.git",
     "Type": "Desktop Application",
     "Link": "#"
