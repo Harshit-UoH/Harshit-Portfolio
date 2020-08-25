@@ -46,8 +46,8 @@ function Navbar() {
             <NavLink to="/Resume" className="links">
               <AiOutlineFilePdf /> <span>RESUME</span>
             </NavLink>
-            <NavLink to="/Projects" className="links">
-              <AiOutlineProject /> <span>PROJECTS</span>
+            <NavLink to="/Portfolio" className="links">
+              <AiOutlineProject /> <span>PORTFOLIO</span>
             </NavLink>
             <NavLink to="/Contact" className="links">
               <RiContactsLine /> <span>CONTACT ME</span>
