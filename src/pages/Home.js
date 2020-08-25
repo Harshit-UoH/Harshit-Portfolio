@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
       <div className="page">
-        <div className="pageposition center">
+        <div className="pageposition center maincontent">
           <center>
             <div className="intro">
               <ScrollAnimation

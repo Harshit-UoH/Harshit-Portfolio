@@ -32,7 +32,9 @@ function Navbar() {
           <hr className = "horizontalrow"></hr>
           <p>Harshit - 18mcmc42</p>
         </center>
-        <hr className = "horizontalrow"></hr>
+        <center>
+          <hr className = "horizontalrow"></hr>
+        </center>
         <div>
           <IconContext.Provider value={{ color: "white", size: "2rem", className: "ico" }}>
             <NavLink to="/home" className="links mt-5 ">

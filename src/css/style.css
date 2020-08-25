@@ -1,5 +1,5 @@
 /* ------------------- BASIC STYLES -------------------- */
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -33,7 +33,6 @@
 }
 .pageposition {
   overflow: hidden;
-  min-height: 100vh !important;
   width: 100%;
   color: white;
   padding-top: 50px;
@@ -42,12 +41,12 @@
 }
 
 /* -------------------- DESKTOP VIEW STYLES ------------------- */
-.loader{
-  background-color:black;
+.loader {
+  background-color: black;
   min-height: 100vh;
 }
-.loader img{
-  margin:0;
+.loader img {
+  margin: 0;
   position: absolute;
   top: 50%;
   left: 60%;
@@ -103,7 +102,7 @@ nav {
   background: rgb(32, 17, 17);
   z-index: 5;
 }
-.uppernav{
+.uppernav {
   border-bottom: 3px outset rgb(241, 176, 209);
   border-right: 3px outset rgb(241, 176, 209);
 }
@@ -158,8 +157,8 @@ nav .menu-bar {
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 15px #e60073,
-      0 0 40px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+    text-shadow: 0 0 5px #fff, 0 0 7px #fff, 0 0 15px #e60073, 0 0 40px #e60073,
+      0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
   }
   to {
     text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6,
@@ -214,15 +213,75 @@ nav .menu-bar {
   margin-left: 5px;
 }
 
-.horizontalrow{
+.horizontalrow {
   height: 3px !important;
   color: hotpink;
+}
+.maincontent {
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh !important;
+  background: rgb(32, 18, 25);
+  padding-right: 20px;
+  padding-left: 315px;
+}
+.maincontent img {
+  width: 90%;
+  height: 90%;
+  margin: 20px;
+  border-top: 3px blue solid;
+  border-left: 3px blue solid;
+  border-radius: 10%;
+}
+.maincontent img:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+.maincontent h5 {
+  color: white;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 1px;
+}
+.progress {
+  height: 10px !important;
+}
+.prohor {
+  height: 5px !important;
+  margin-left: 30px;
+  margin-bottom: 80px;
+  width: 100px;
+}
+.horizontalrow {
+  width: 40%;
+  background-color: blue;
+}
+.aboutheading {
+  width: 100wh;
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 80px;
+  color: white;
+  padding-left: 30px;
+  opacity: 0.5;
+}
+.aboutheading1 {
+  width: 100wh;
+  color: #ccc;
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 80px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  opacity: 0.5;
 }
 
 /* -------------------- MEDIA QUERIES FOR TABLETS ----------------------*/
 
 @media (max-width: 850px) {
-  .loader img{
+  .loader img {
     left: 57%;
   }
   .pageposition {
@@ -256,18 +315,25 @@ nav .menu-bar {
   .side-menu {
     width: 100px;
   }
+  .maincontent {
+    padding-left: 110px;
+    padding-right: 0px;
+  }
+  .maincontent img {
+    width: 90%;
+    height: 90%;
+    border: 3px blue solid;
+  }
 }
-
 
 /* -------------------- MEDIA QUERIES FOR MOBLIE ----------------------*/
 @media (max-width: 650px) {
-  .loader img{
+  .loader img {
     left: 50%;
   }
   .pageposition {
     padding-left: 0px;
   }
-
   nav .admin {
     display: none;
   }
@@ -292,5 +358,27 @@ nav .menu-bar {
   }
   .side-menu .links span {
     display: block;
+  }
+  .aboutheading1 {
+    font-size: 35px !important;
+  }
+  .aboutheading1 {
+    font-size: 45px;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+  }
+  .maincontent img {
+    width: 90%;
+    height: 90%;
+    border: 3px blue solid;
+  }
+  .maincontent {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  div .maincontent {
+    padding-left: 0px;
   }
 }
