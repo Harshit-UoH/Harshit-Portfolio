@@ -40,6 +40,7 @@ class SearchFilterCopy extends Component {
         <div className="center">
           <div className="btn-group " role="group" aria-label="Basic example">
             {buttons.map(({ name, value }) => (
+              <ScrollAnimation animateIn="bounce">
               <button
                 type="button"
                 className="btn btn-secondary filterbtn"
@@ -49,6 +50,7 @@ class SearchFilterCopy extends Component {
               >
                 {name}
               </button>
+              </ScrollAnimation>
             ))}
           </div>
         </div>

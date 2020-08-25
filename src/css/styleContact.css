@@ -1,0 +1,56 @@
+
+.maincontent {
+  /* margin-left: -15px !important; */
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(32, 18, 25);
+  /* padding-top: 50px; */
+  padding-right: 20px;
+  padding-left: 315px;
+}
+.contactfrom {
+  background: rgba(238, 238, 238, 0.034) !important;
+  border: 1px solid hotpink !important;
+  border-radius: 5%;
+  width: 95%;
+  height: 95%;
+}
+.contactcard {
+  background: rgba(238, 238, 238, 0.034) !important;
+  /* position: relative; */
+}
+.contactfrom input {
+  background: rgb(235, 228, 228);
+}
+.icons {
+  border: 1px solid hotpink;
+  font-size: 4rem;
+  color: rgb(212, 177, 111);
+  padding: 10px;
+  position: absolute;
+  top: 25%;
+  margin-left: 20px;
+}
+.card-text {
+  font-size: 25px;
+  color: wheat;
+  padding-left: 7rem;
+  display: inline;
+}
+
+.cardelement {
+  margin-left: 7rem;
+  font-size: 15px;
+  color: hotpink !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+@media (max-width: 650px) {
+  .contactfrom{
+    height: 400px;
+  }
+}
