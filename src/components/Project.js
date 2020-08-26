@@ -10,7 +10,7 @@ import { AiOutlineLink } from "react-icons/ai";
 const buttons = [
   { name: "All", value: "All" },
   { name: "Web Development", value: "Web Development" },
-  { name: "Desktop Application", value: "Desktop Application" },
+  { name: "Application Software", value: "Application Software" },
 ];
 
 class SearchFilterCopy extends Component {

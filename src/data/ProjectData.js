@@ -20,7 +20,7 @@ export default[
     "Name": "Flutter App",
     "Technology": [{ "id":1,"Tech" :"Flutter" }, { "id": 2,"Tech" : "Firebase" }, {"id" : 3, "Tech" : "Firestore"} ],
     "Gitlink": "https://Harshit-18mcmc42@bitbucket.org/Harshit-18mcmc42/flutter-app.git",
-    "Type": "Desktop Application",
+    "Type": "Application Software",
     "Link": "#"
   },
   {
@@ -28,7 +28,7 @@ export default[
     "Name": "AI Game 'Stay Home'",
     "Technology": [{ "id":1,"Tech" :"Java" }, { "id":2,"Tech" : "Java Swing" }, {"id": 3, "Tech": "Derby DB"} ],
     "Gitlink": "https://Harshit-18mcmc42@bitbucket.org/Harshit-18mcmc42/stay-home.git",
-    "Type": "Desktop Application",
+    "Type": "Application Software",
     "Link": "#"
   },
   {
