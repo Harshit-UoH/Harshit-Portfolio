@@ -10,7 +10,7 @@ export default[
   },
   {
     "Id": 1,
-    "Year": "Present",
+    "Year": "2020",
     "Company":"Web AI - (2 Week Internship)",
     "Location": "Gorakhpur",
     "Role":"Web developer",
