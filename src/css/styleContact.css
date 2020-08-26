@@ -1,14 +1,4 @@
 
-.maincontent {
-  /* margin-left: -15px !important; */
-  overflow: hidden;
-  width: 100%;
-  min-height: 100vh;
-  background: rgb(32, 18, 25);
-  /* padding-top: 50px; */
-  padding-right: 20px;
-  padding-left: 315px;
-}
 .contactfrom {
   background: rgba(238, 238, 238, 0.034) !important;
   border: 1px solid hotpink !important;
