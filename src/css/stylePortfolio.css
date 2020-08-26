@@ -63,13 +63,13 @@
   background-color: rgb(175, 193, 226);
   color: white;
 }
-.center {
+.centers {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
 }
-center h3 {
+centers h3 {
   color: whitesmoke;
 }
 .filterbtn{

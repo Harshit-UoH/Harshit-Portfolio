@@ -37,7 +37,7 @@ class SearchFilterCopy extends Component {
   render() {
     return (
       <>
-        <div className="center">
+        <div className="centers">
           <div className="btn-group " role="group" aria-label="Basic example">
             {buttons.map(({ name, value }) => (
               <ScrollAnimation animateIn="bounce">
