@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./css/style.css";
-import Loader from "./images/loader.gif";
+import Loader from "./images/loader.svg";
 
 /* -------------- COMPONENTS --------------- */
 import Navbar from "./components/Navbar";
@@ -26,9 +26,10 @@ function App() {
           render={({ location }) => (
             <Suspense
               fallback={
-                <div className="loader">
-                  <img src={Loader} alt="loader" />
-                </div>
+                <h1 className="loader">
+                  <img src={Loader} alt="loding.io svg" />
+                </h1>
+                // <h2>heee</h2>
               }
             >
               <Switch location={location}>
