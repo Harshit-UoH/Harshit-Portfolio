@@ -8,7 +8,7 @@ import { AiOutlineLink } from "react-icons/ai";
 
 /* ----------------------- FILTER BUTTONS ----------------- */
 const buttons = [
-  { name: "All", value: "All" },
+  { name: "All Project", value: "All Project" },
   { name: "Web Development", value: "Web Development" },
   { name: "Application Software", value: "Application Software" },
 ];
@@ -25,7 +25,7 @@ class SearchFilterCopy extends Component {
 
   handleClick = (name) => {
     let itemsToDisplay = [];
-    if (name === "All") {
+    if (name === "All Project") {
       itemsToDisplay = data;
     } else {
       itemsToDisplay = data.filter((data) => data.Type === name);

@@ -376,7 +376,7 @@ nav .menu-bar {
   }
   .maincontent {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
   }
   div .maincontent {
     padding-left: 0px;

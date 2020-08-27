@@ -16,7 +16,7 @@ const Portfolio = () => {
             <div className="progress-bar bg-blue progress-bar-striped horizontalrow"></div>
           </div>
         </div>
-        <div className="maincontent resumecontent">
+        <div className="maincontent">
           {/* <SearchFilter /> */}
           <SearchFilterCopy />
           <div>
