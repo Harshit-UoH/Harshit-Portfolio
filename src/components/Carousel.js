@@ -31,7 +31,7 @@ class Carou extends React.Component {
                 <React.Fragment key={carouselData.Id}>
                   <div className="carouselItem">
                     <div className="carouselcontent">
-                      <h1>{carouselData.title}</h1>
+                      <h1>{carouselData.Title}</h1>
                       <p>{carouselData.Discription}</p>
                     </div>
                   </div>

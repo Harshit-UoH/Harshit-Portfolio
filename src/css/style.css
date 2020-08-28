@@ -117,6 +117,10 @@ label {
   padding-left: 300px;
   display: block;
 }
+.active{
+  box-shadow: 0 0 5px #bbbfd4;
+
+}
 nav .menu-bar {
   float: right;
   display: none;

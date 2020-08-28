@@ -36,7 +36,7 @@ function Navbar() {
           <hr className = "horizontalrow"></hr>
         </center>
         <div>
-          <IconContext.Provider value={{ color: "white", size: "2rem", className: "ico" }}>
+          <IconContext.Provider value={{ color: "white", size: "2rem", className: "ico active" }}>
             <NavLink to="/home" className="links mt-5 ">
               <GiSelfLove /> <span>HOME</span>
             </NavLink>
