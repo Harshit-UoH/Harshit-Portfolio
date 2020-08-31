@@ -17,7 +17,6 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="maincontent">
-          {/* <SearchFilter /> */}
           <SearchFilterCopy />
           <div>
             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">

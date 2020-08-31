@@ -55,9 +55,7 @@
 #menu {
   display: none;
 }
-#menu:checked ~ .side-menu {
-  left: 0;
-}
+
 nav .admin {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -332,6 +330,9 @@ nav .menu-bar {
 
 /* -------------------- MEDIA QUERIES FOR MOBLIE ----------------------*/
 @media (max-width: 650px) {
+  #menu:checked ~ .side-menu {
+    right: 50%;
+  }
   .loader img {
     left: 50%;
   }
@@ -356,13 +357,14 @@ nav .menu-bar {
   }
   .side-menu {
     margin-top: 50px;
-    width: 100%;
+    width: 50%;
     transition: all 0.5s;
-    left: 100%;
+    right: 100%;
   }
   .side-menu .links span {
     display: block;
   }
+  
   .aboutheading1 {
     font-size: 35px !important;
   }

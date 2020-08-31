@@ -16,6 +16,9 @@ import { RiContactsLine } from "react-icons/ri"; // Contact
 
 
 function Navbar() { 
+  function clickhandle() {
+    document.getElementById("menu").checked = false;
+  }
   return (
     <>
       <input type="checkbox" id="menu" />
@@ -37,19 +40,19 @@ function Navbar() {
         </center>
         <div>
           <IconContext.Provider value={{ color: "white", size: "2rem", className: "ico active" }}>
-            <NavLink to="/home" className="links mt-5 ">
+            <NavLink to="/home" className="links mt-5 " onClick = {clickhandle} >
               <GiSelfLove /> <span>HOME</span>
             </NavLink>
-            <NavLink to="/About" className="links">
+            <NavLink to="/About" className="links" onClick = {clickhandle}>
               <BsInfoSquare /> <span>ABOUT</span>
             </NavLink>
-            <NavLink to="/Resume" className="links">
+            <NavLink to="/Resume" className="links" onClick = {clickhandle}>
               <AiOutlineFilePdf /> <span>RESUME</span>
             </NavLink>
-            <NavLink to="/Portfolio" className="links">
+            <NavLink to="/Portfolio" className="links" onClick = {clickhandle}>
               <AiOutlineProject /> <span>PORTFOLIO</span>
             </NavLink>
-            <NavLink to="/Contact" className="links">
+            <NavLink to="/Contact" className="links" onClick = {clickhandle}>
               <RiContactsLine /> <span>CONTACT ME</span>
             </NavLink>
           </IconContext.Provider>
