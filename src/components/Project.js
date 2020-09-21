@@ -68,7 +68,7 @@ class SearchFilterCopy extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            <AiOutlineLink className="ico" />
+                            <AiOutlineLink className="ico makevisible" />
                           </a>
                         </span>
                         <div className="resttypes">

@@ -5,6 +5,8 @@
   border-radius: 5%;
   width: 95%;
   height: 95%;
+  margin-left: 20px;
+  margin-right: 10px !important;
 }
 .contactcard {
   background: rgba(238, 238, 238, 0.034) !important;
@@ -42,5 +44,7 @@ a {
 @media (max-width: 650px) {
   .contactfrom{
     height: 400px;
+    margin-left: 12px;
+    margin-right: 10px !important;
   }
 }

@@ -24,7 +24,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-12 col-md-6 pl-2 pr-2">
               {/* <!-- Default form contact --> */}
-              <iframe title="locationframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.013482034878!2d78.32713661418859!3d17.459068805330794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93049b911a51%3A0xbad8e8eec6820122!2sHostel%20D%2C%20Serilingampally%2C%20Hyderabad%2C%20Telangana%20500046!5e0!3m2!1sen!2sin!4v1596473255277!5m2!1sen!2sin" className="text-center contactfrom p-4 ml-3 mr-5"></iframe>
+              <iframe title="locationframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.013482034878!2d78.32713661418859!3d17.459068805330794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93049b911a51%3A0xbad8e8eec6820122!2sHostel%20D%2C%20Serilingampally%2C%20Hyderabad%2C%20Telangana%20500046!5e0!3m2!1sen!2sin!4v1596473255277!5m2!1sen!2sin" className="text-center contactfrom p-4"></iframe>
             </div>
 
             <div className="col-12 col-md-6 pl-0 pr-0">

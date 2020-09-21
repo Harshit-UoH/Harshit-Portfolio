@@ -210,9 +210,9 @@ nav .menu-bar {
   line-height: 40px;
   font-size: 30px;
   fill: rgb(92, 245, 10);
-  padding-left: 5px;
+  padding: 3px;
   transition: transform 0.5s ease;
-  margin-left: 5px;
+  margin-left: 15px;
 }
 
 .horizontalrow {
@@ -236,9 +236,9 @@ nav .menu-bar {
   border-radius: 10%;
 }
 .maincontent img:hover {
-  -moz-box-shadow: 0 0 10px #ccc;
-  -webkit-box-shadow: 0 0 10px #ccc;
-  box-shadow: 0 0 10px #ccc;
+  -moz-box-shadow: 0 0 5px #ccc;
+  -webkit-box-shadow: 0 0 5px #ccc;
+  box-shadow: 0 0 5px #ccc;
 }
 .maincontent h5 {
   color: white;
@@ -283,6 +283,9 @@ nav .menu-bar {
 /* -------------------- MEDIA QUERIES FOR TABLETS ----------------------*/
 
 @media (max-width: 850px) {
+  .ico{
+    margin-left: auto;
+  }
   .loader img {
     left: 57%;
   }
@@ -324,14 +327,13 @@ nav .menu-bar {
   .maincontent img {
     width: 90%;
     height: 90%;
-    border: 3px blue solid;
   }
 }
 
 /* -------------------- MEDIA QUERIES FOR MOBLIE ----------------------*/
 @media (max-width: 650px) {
   #menu:checked ~ .side-menu {
-    right: 50%;
+    right: 30%;
   }
   .loader img {
     left: 50%;
@@ -345,6 +347,9 @@ nav .menu-bar {
   .ico {
     display: none;
   }
+  .makevisible{
+    display: inline-block;
+  }
   .mylogo {
     padding-left: 0px;
     display: inline-block;
@@ -357,7 +362,7 @@ nav .menu-bar {
   }
   .side-menu {
     margin-top: 50px;
-    width: 50%;
+    width: 70%;
     transition: all 0.5s;
     right: 100%;
   }
@@ -378,7 +383,6 @@ nav .menu-bar {
   .maincontent img {
     width: 90%;
     height: 90%;
-    border: 3px blue solid;
   }
   .maincontent {
     padding-left: 10px;

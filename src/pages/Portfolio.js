@@ -1,7 +1,7 @@
 import React from "react";
 import SearchFilterCopy from "../components/Project";
 import ScrollAnimation from "react-animate-on-scroll";
-import Blogs from "../components/Blogs";
+//import Blogs from "../components/Blogs";
 import "../css/stylePortfolio.css";
 
 const Portfolio = () => {
@@ -18,7 +18,7 @@ const Portfolio = () => {
         </div>
         <div className="maincontent">
           <SearchFilterCopy />
-          <div>
+          {/* <div>
             <ScrollAnimation animateIn="fadeIn" animateOut="fadeOut">
               <h1 className="aboutheading1">BLOGS</h1>
             </ScrollAnimation>
@@ -28,7 +28,7 @@ const Portfolio = () => {
             <div className="row d-flex justify-content-center">
               <Blogs />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
